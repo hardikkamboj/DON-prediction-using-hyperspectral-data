@@ -34,6 +34,14 @@ This project implements various machine learning models for predicting Deoxyniva
 - [model_interpretability.ipynb](model_interpretability.ipynb): (incomplete) - Evaluating the model intrepretibility using SHAP
 
 
+## TO-DO 
+- [x] Neural network with custom loss
+- [ ] Two stage model (classified + Regression)
+- [ ] Model interpretibilty 
+- [ ] Fast API 
+- [ ] Streamlit application 
+
+
 ## Models Implemented
 
 1. Linear Regression
