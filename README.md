@@ -24,6 +24,14 @@ This project implements various machine learning models for predicting Deoxyniva
 └── y_processed.csv          # Target values
 ```
 
+## Notebooks: 
+
+- [Data_exploration_and_preprocessing.ipynb](Data_exploration_and_preprocessing.ipynb): This notebook explores the dataset, and trends & patterns in the dataset. 
+- [data_visualization.ipynb](data_visualization.ipynb): Visualizes the processed dataset in 2D 
+- [Model_fitting.ipynb](Model_fitting.ipynb): Fitting and evaluating the models on the processed data
+- [model_interpretability.ipynb](model_interpretability.ipynb): (incomplete) - Evaluating the model intrepretibility using SHAP
+
+
 ## Models Implemented
 
 1. Linear Regression
