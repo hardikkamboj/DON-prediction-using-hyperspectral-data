@@ -7,6 +7,7 @@ This project implements various machine learning models for predicting Deoxyniva
 ```
 .
 ├── README.md
+├── models /                  # contains the saved models   
 ├── src/
 │   ├── config/
 │   │   └── config.py         # Configuration parameters
@@ -17,6 +18,7 @@ This project implements various machine learning models for predicting Deoxyniva
 │   ├── utils/
 │   │   ├── training.py       # Training utilities
 │   │   └── visualization.py  # Visualization utilities
+|   |   └── model_loading.py  # code to load model
 │   └── main.py              # Main script
 ├── x_processed.csv          # Input features
 └── y_processed.csv          # Target values
@@ -27,7 +29,7 @@ This project implements various machine learning models for predicting Deoxyniva
 1. Linear Regression
 2. Ridge Regression (L2 regularization)
 3. Lasso Regression (L1 regularization)
-4. XGBoost (Gradient Boosting)
+4. XGBoost (Gradient Boosting) (couldn't train this one)
    - Hyperparameter tuning via GridSearchCV
    - Feature importance analysis
    - Multi-core training support
@@ -35,6 +37,9 @@ This project implements various machine learning models for predicting Deoxyniva
    - Multi-layer architecture
    - Dropout regularization
    - Early stopping
+6. Neural Network with custom loss 
+   - Implemented neural network with weighted MSE loss 
+   - Overcame the issues I was getting with regular neural network implementation
 
 ## Features
 
