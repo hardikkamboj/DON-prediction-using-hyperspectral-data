@@ -70,8 +70,8 @@ This project implements various machine learning models for predicting Deoxyniva
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone (https://github.com/hardikkamboj/DON-prediction-using-hyperspectral-data.git)
+cd DON-prediction-using-hyperspectral-data
 ```
 
 2. Install the required packages:
