@@ -1,5 +1,7 @@
 # DON Prediction Model
 
+![corn](corn.jpg)
+
 This project implements various machine learning models for predicting Deoxynivalenol (DON) levels using spectral data. The implementation includes linear regression models with different regularization techniques, gradient boosting, and a neural network approach.
 
 ## Project Structure
@@ -49,7 +51,6 @@ This project implements various machine learning models for predicting Deoxyniva
    - Implemented neural network with weighted MSE loss 
    - Overcame the issues I was getting with regular neural network implementation
 
-## Features
 
 ## Requirements
 
