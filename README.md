@@ -33,6 +33,8 @@ This project implements various machine learning models for predicting Deoxyniva
 - [Model_fitting.ipynb](Model_fitting.ipynb): Fitting and evaluating the models on the processed data
 - [model_interpretability.ipynb](model_interpretability.ipynb): (incomplete) - Evaluating the model intrepretibility using SHAP
 
+## Project Report: 
+- [Project report.pdf](Project report.pdf): Contains detailed report of the project, along with my findings in a very friendly way. : D 
 
 ## TO-DO 
 - [x] Neural network with custom loss
